@@ -1,0 +1,19 @@
+.services {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 150px;
+}
+
+
+.servicesCard a {
+    color: #F78065;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.servicesCard p {
+    opacity: 50%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
