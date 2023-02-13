@@ -1,0 +1,23 @@
+.facilities {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 100px;
+    
+}
+
+.facilities img {
+    width: 20px;
+}
+
+.facilities h2 {
+    font-size: 18px;
+}
+
+.facilities p {
+    font-size: 14px;
+    font-family: 'Merriweather Sans', sans-serif;
+    opacity: 50%;
+    padding-right: 15px;
+
+}
