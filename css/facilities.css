@@ -1,9 +1,13 @@
-.facilities {
+.facilitieWrapper {
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
     padding: 100px;
     
+}
+
+.facilities-h2 {
+    padding-left: 100px;
 }
 
 .facilities img {
@@ -19,5 +23,4 @@
     font-family: 'Merriweather Sans', sans-serif;
     opacity: 50%;
     padding-right: 15px;
-
 }
