@@ -1,0 +1,20 @@
+.advantagesWrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.advantages p {
+    font-size: 14px;
+    opacity: 50%;
+    padding-right: 15px;
+
+}
+
+.advantages-h2 {
+    margin-left: 150px;
+    margin-bottom: 90px;
+}
