@@ -2,21 +2,24 @@
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
-    padding: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
     
 }
 
 .facilities-h2 {
-    padding-left: 100px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+
+    font-size: 30px;
 }
 
 .facilities img {
     width: 20px;
+    
 }
 
-.facilities h2 {
-    font-size: 18px;
-}
 
 .facilities p {
     font-size: 14px;
