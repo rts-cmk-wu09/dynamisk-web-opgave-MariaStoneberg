@@ -47,6 +47,16 @@
 }
 
 .btnicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    gap: 10px;
+
     background-color: #F78065;
+    color: white;
     border: none;
 }

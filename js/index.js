@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // slå dig løs her... 
+    // slå dig løs her...
+
+hero.headline = hero.headline.replace (
+    "save your time",
+    "<span>save your time</span>"
+);
+
     document.querySelector(".hero").innerHTML = `
     <figure class="hero-img">
     <img src="${hero.image}" alt="">
@@ -100,12 +106,15 @@ document.addEventListener("DOMContentLoaded", function() {
     sitesWrap.append(headline);
     sitesWrap.append(sitesText);
     
+
+
     let btnicon = document.createElement("button");
     btnicon.classList = "btnicon";
-    btnicon.textContent = sites.btnicon;
-    
-    sitesWrap.append(btnicon);
-    sitesSection.append(sitesWrap);
+    btnicon.innerHTML = `<img src="${sites.btnicon}" alt="">Start`
+    ;
+     
+     sitesWrap.append(btnicon);
+     sitesSection.append(sitesWrap);
  
 
 
