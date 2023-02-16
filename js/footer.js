@@ -28,22 +28,52 @@ let foot = {
 
 // Code
 
-
 let footer = document.createElement("footer");
 document.body.appendChild(footer);
+
+footer.style = `
+display: flex;
+margin: 150px;
+padding: 100px;
+
+background-color: #F7F7F7;
+
+`
+
+let footWrap = document.createElement("div");
+footWrap.classList = "footWrap";
+
 
 let footheading = document.createElement("h2");
 footheading.textContent = foot.headline;
 
-let foottext = document.createElement("p");
-foottext.textContent = foot.text;
 
-footer.append(footheading);
-footer.append(foottext);
+
+let foottext = document.createElement("p");
+foottext.innerHTML = foot.text.split(' ').join('<br>');
+
+foottext.style = `
+font-family: 'Merriweather', serif;
+
+font-size: 39px;
+`
+
+footWrap.append(footheading);
+footWrap.append(foottext);
+
+footer.append(footWrap);
+
 
 let footwrapper = document.createElement("div");
 footwrapper.classList = "footwrapper";
 footer.append(footwrapper);
+
+footwrapper.style = `
+display: flex;
+justify-content: end;
+gap: 20px;
+
+`
 
 foot.networks.forEach ((network) => {
     let card = document.createElement("section");
