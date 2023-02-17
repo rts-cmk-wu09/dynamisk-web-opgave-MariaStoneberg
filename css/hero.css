@@ -1,0 +1,64 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.hero-img, .hero-container {
+    grid-row: 1;
+}
+
+.hero-img img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F78065;
+    
+} 
+
+.hero-container {
+    width: 600px;
+    height: 450px;
+    margin-top: 350px;
+
+    padding: 80px 60px 80px 70px;
+    background-color: white;
+    
+    grid-column: 2;
+    grid-row: 1.5;
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    gap: 10px;
+
+    border: 0;
+    background-color: #F78065;
+    color: white;
+}
+
+.hero-img {
+    grid-column: 1 / 6;
+
+}
+
+.hero h1 {
+    font-size: 35px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.hero-container span {
+    color: #F78065;
+}
+
+
+
+

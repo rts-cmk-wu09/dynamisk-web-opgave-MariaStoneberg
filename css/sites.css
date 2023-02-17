@@ -1,0 +1,62 @@
+.sites {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sitesWrapper {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-bottom: 150px;
+
+}
+
+.sitesWrapper img {
+    height: 400px;
+    background-size: cover;
+    
+
+}
+
+.sitesText {
+    font-family: 'Merriweather Sans', sans-serif;
+    opacity: 50%;
+    padding-right: 60px;
+
+    
+}
+
+.placeCard p {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+
+    
+}
+
+.placeCard h3 {
+    margin-bottom: 0;
+}
+
+.placeCard a {
+    margin-top: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #F78065;
+
+}
+
+.btnicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    gap: 10px;
+
+    background-color: #F78065;
+    color: white;
+    border: none;
+}
