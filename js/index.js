@@ -31,29 +31,6 @@ hero.headline = hero.headline.replace (
     services.forEach(service => console.log(service.headline))
 
 
-    /* Services */
-    let servicesSection = document.querySelector(".services");
-    
-    services.forEach((service) => {
-        let card = document.createElement("section");
-        card.classList = "servicesCard"
-        let image = document.createElement("img");
-        let title = document.createElement("h2");
-        let cardText = document.createElement("p");
-        let linktext = document.createElement("a");
-
-        image.src = service.illustration;
-        title.textContent = service.headline;
-        cardText.textContent = service.text;
-        linktext.textContent = service.linktext;
-
-        card.append(image); 
-        card.append(title);
-        card.append(cardText);
-        card.append(linktext);
-        servicesSection.append(card);
-
-    });
 
     /* Facilities */
 
