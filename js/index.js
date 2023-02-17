@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // slå dig løs her...
 
+    //Hero
+ 
 hero.headline = hero.headline.replace (
     "save your time",
     "<span>save your time</span>"
